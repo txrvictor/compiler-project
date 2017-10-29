@@ -1,0 +1,59 @@
+inicio
+{
+    declare int a,b,g;
+    declare dec c,d;
+    declare txt e,f;
+    
+    
+    a = 5;
+    c = 2.5;
+    d = 0.6;
+    e = "texto texto";
+    g = 1 + 2;
+    
+    
+    
+    leia(a);
+    escreva(e);
+    leia(x);
+    
+    
+    se (a < c) entao {
+        escreva(a);
+        se(c != d) entao {
+            d = 2 + c;
+            
+            se(c > d) entao {
+                escreva("Teste String Hardcode");
+            }
+        }
+        
+    }
+    
+    se (a-2 > d+3) entao {
+        escreva(a);
+        se (a-2 > d+3) entao {
+            escreva(a);
+        }
+    } senao {
+        se (c < g) entao {
+            escreva(d);
+        }
+    }
+    
+    enquanto (a ?= c) faca {
+        
+        escreva(a);
+        se (a-2 > d+3) entao {
+            escreva(a);
+        }
+        
+    }
+    
+    faz {
+        escreva(c);
+        escreva(d);
+    } durante(a >= c);
+    
+}
+fim
